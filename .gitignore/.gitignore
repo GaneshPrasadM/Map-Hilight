@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://pprod.customer-communities.orange-business.com/resources/statics/11939/jquery.maphilight.min.js?a=1525349132323"></script>
+<script type="text/javascript">
+        $(function () {
+            $('.map').maphilight();
+        });
+</script>
+<body>
+<div>
+<div class="imginfo"><span></span></div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Windows_live_square.JPG" usemap="#image-map" class="map">
+
+<map name="image-map">
+    <area target="" alt="" title="" href="" coords="0,0,144,146" shape="rect">
+    <area target="" alt="" title="" href="" coords="152,1,299,146" shape="rect">
+    <area target="" alt="" title="" href="" coords="2,149,143,299" shape="rect">
+    <area target="" alt="" title="" href="" coords="152,152,300,299" shape="0">
+</map>
+</div>
+
+</body>
+</html>
